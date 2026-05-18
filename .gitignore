@@ -1,0 +1,40 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+
+# Streamlit Cache
+.streamlit/
+
+# VS Code Settings
+.vscode/
+
+# PyCharm Settings
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary Files
+temp/
+tmp/
+
+# Dataset Files (Optional)
+data/sample_resumes/
+
+# Generated Files
+*.csv
