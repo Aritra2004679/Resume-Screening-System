@@ -5,6 +5,12 @@ The system automatically parses resumes, extracts technical skills, analyzes job
 
 ---
 
+# 🌐 Live Demo
+
+https://idfitoasczbvfcw9cqmpma.streamlit.app
+
+---
+
 # 🚀 Features
 
 ✅ Resume Parsing (PDF & DOCX)
@@ -20,7 +26,7 @@ The system automatically parses resumes, extracts technical skills, analyzes job
 
 # 🏗️ Project Architecture
 
-```text id="18vn6k"
+```text
 Resume Upload
       ↓
 📄 Resume Parser
@@ -53,7 +59,7 @@ Resume Upload
 
 # 📁 Project Structure
 
-```text id="tl0e2u"
+```text
 RESUME_SCREENING_SYSTEM/
 │
 ├── data/
@@ -74,10 +80,9 @@ RESUME_SCREENING_SYSTEM/
 │   ├── jd_parser.py
 │   └── resume_parser.py
 │
-├── venv/
-│
 ├── .gitignore
 ├── requirements.txt
+├── README.md
 └── app.py
 ```
 
@@ -87,7 +92,7 @@ RESUME_SCREENING_SYSTEM/
 
 ## 1️⃣ Clone the Repository
 
-```bash id="v4w5rj"
+```bash
 git clone <your-repository-link>
 cd Resume_Screening_System
 ```
@@ -96,9 +101,7 @@ cd Resume_Screening_System
 
 ## 2️⃣ Create Virtual Environment
 
-### Windows
-
-```bash id="db54tx"
+```bash
 python -m venv venv
 ```
 
@@ -108,7 +111,7 @@ python -m venv venv
 
 ### Windows PowerShell
 
-```bash id="p7rw6a"
+```bash
 venv\Scripts\activate
 ```
 
@@ -116,7 +119,7 @@ venv\Scripts\activate
 
 ## 4️⃣ Install Dependencies
 
-```bash id="m6an8q"
+```bash
 pip install -r requirements.txt
 ```
 
@@ -126,7 +129,7 @@ pip install -r requirements.txt
 
 ## Run Streamlit Application
 
-```bash id="5otm38"
+```bash
 streamlit run app.py
 ```
 
@@ -134,25 +137,36 @@ The application will automatically open in your browser.
 
 ---
 
+# ☁️ Deployment
+
+This project is deployed using Streamlit Community Cloud.
+
+Live Application:
+
+https://idfitoasczbvfcw9cqmpma.streamlit.app
+
+---
+
 # 💼 Sample Job Description
 
-```text id="hy7uv0"
-We are looking for a Senior Python Developer with strong experience in backend development.
+```text
+Job Title: AI/ML Engineer Intern
 
 Required Skills:
 - Python
-- Django
-- REST APIs
+- Machine Learning
 - SQL
+- Pandas
+- NumPy
 
 Preferred Skills:
-- PostgreSQL
+- NLP
+- Streamlit
 - Docker
-- AWS
+- TensorFlow
 
 Experience:
-- 3+ years of professional Python development
-- Experience building web applications
+- Internship/project experience in AI or Machine Learning
 ```
 
 ---
@@ -168,13 +182,11 @@ The system calculates candidate scores using weighted scoring logic:
 
 Final Formula:
 
-```text id="j3uz0l"
 Total Score =
 (S_req × 0.50) +
 (S_pref × 0.25) +
 (E_exp × 0.15) +
 (K_key × 0.10)
-```
 
 ---
 
@@ -182,14 +194,14 @@ Total Score =
 
 Dataset used in this project:
 
-🔗 Resume Dataset from Kaggle
+Resume Dataset from Kaggle:
 https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset
 
 ---
 
 # 🧪 Sample Output
 
-```text id="vzkml6"
+```text
 ============================================================
 SCREENING RESULTS
 ============================================================
@@ -218,4 +230,4 @@ Matched Skills: Python, Django
 
 # 👨‍💻 Author
 
-Aritra Chakraborty
+Developed using Python and Streamlit as a modular Resume Screening and Candidate Ranking System.
